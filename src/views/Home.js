@@ -32,16 +32,10 @@ export const Home = () => {
     function handleChange(event) {
 
       console.log(event.value);
-      var selection = event.value;
-      console.log(typeof(selection));
       setSection(`movie/${event.value}`);
       console.log(section);
-
-
     }
   
-
-
 
     const options = [
       {value: 'upcoming', label: 'Upcoming'},
