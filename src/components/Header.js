@@ -5,7 +5,7 @@ export const Header = () => (
     
     <HeaderContainer>
 
-        <h1>MovieBoard</h1>
+        <h1>Movie Directory</h1>
         <MainMenu/>
 
     </HeaderContainer>

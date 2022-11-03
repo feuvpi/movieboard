@@ -30,7 +30,6 @@ export const Home = () => {
 
 
     function handleChange(event) {
-
       console.log(event.value);
       setSection(`movie/${event.value}`);
       console.log(section);
